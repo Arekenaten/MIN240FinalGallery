@@ -5,6 +5,9 @@
 body {
     background-image: linear-gradient(135deg, #fffc00, #ff00ea);
 }
+h1 {
+    color: #303030;
+}
 #introText {
     display: grid;
     justify-content: center;
