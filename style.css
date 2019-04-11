@@ -65,3 +65,17 @@ i.material-icons {
     will-change: opacity;
     transition: all 1s;
 }
+
+@media only screen and (max-width: 760px) {
+    .container {
+        display: grid;
+        width: 100vw;
+        background: #ededed;
+        padding: 20px;
+        margin: 0px;
+        border-radius: 0px;
+    }
+    .gridContainer {
+        grid-gap: 40px;
+    }
+}
